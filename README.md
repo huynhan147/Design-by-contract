@@ -62,7 +62,7 @@ Các điều kiện hợp đồng sẽ không bao giờ bị vi phạm trong khi
 Trong nhiều ngôn ngữ lập trình, các hợp đồng được thực hiện với [các xác nhận] [16]. Các xác nhận được mặc định biên dịch trong chế độ phát hành trong C/C ++, và tương tự như bị vô hiệu hóa trong C# [[8]][27] và Java. Điều này có hiệu quả loại bỏ các chi phí thời gian chạy của hợp đồng phát hành.
 
 Design by contract không thay thế các chiến lược thử nghiệm thường xuyên, chẳng hạn như [kiểm tra đơn vị][28], [thử nghiệm tích hợp][29] và [thử nghiệm hệ thống][30]. Thay vào đó, nó bổ sung cho thử nghiệm bên ngoài với các phép kiểm thử nội bộ có thể được kích hoạt cho cả các thử nghiệm riêng biệt và trong code production trong giai đoạn thử nghiệm. Lợi thế của tự kiểm tra nội bộ là chúng có thể phát hiện lỗi trước khi chúng tự biểu hiện dưới dạng kết quả không hợp lệ được khách hàng quan sát. Điều này dẫn đến phát hiện lỗi sớm hơn và cụ thể hơn.
-Việc sử dụng các xác nhận có thể được coi là một dạng của [kiểm tra oracle] [31], một cách để kiểm tra thiết kế bằng cách thực hiện hợp đồng. 
+Việc sử dụng các xác nhận có thể được coi là một dạng của [kiểm tra oracle][31], một cách để kiểm tra thiết kế bằng cách thực hiện hợp đồng. 
 
 [1]: https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/Design_by_contract.svg/220px-Design_by_contract.svg.png
 [2]: https://en.m.wikipedia.org/wiki/Software "Software"
